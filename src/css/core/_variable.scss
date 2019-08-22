@@ -1,0 +1,21 @@
+/*-------------------------------------------------------------------*/
+/*---  定義 ---*/
+/*-------------------------------------------------------------------*/
+
+//FULL-HDをCSSピクセルで設定
+$min-device-width: 414px;   // 仕様上のサイズ
+$min-device-height: 736px;   // 仕様上のサイズ
+
+$base-font-family: sans-serif,"MS Sans","Meiryo UI";
+$base-font-size: 16px;
+$base-font-color: #000000;
+$base-background-color: #FFD500;
+
+$highlight-font-color: #ffffff;
+$highlight-background-color: rgba(0,0,0,0.9);
+
+$header-height: 54px;
+$header-background-color: #FFD500;
+$footer-height: 0;
+
+

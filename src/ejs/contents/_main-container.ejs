@@ -1,0 +1,11 @@
+<div class="_c_main-contents" id="_id_main-contents" data-id="<%= template.name %>">
+    <script type="text/javascript">
+        var filename = $("#_id_main-contents").attr('data-id');
+        if(!filename){
+            $("#_id_main-contents").html(filename + '.html をロードできません');
+            return;
+        }
+        $("#_id_main-contents").load("/template/" + filename + '.html');
+    </script>
+</div>
+

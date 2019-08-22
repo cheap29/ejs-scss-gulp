@@ -1,0 +1,18 @@
+<%- include('inc/_head', {title: ''}) %>
+<body class="_c_body">
+
+  <!--グローバルヘッダー-->
+  <%- include('common/global-header', {headerType: 'overlay'}) %>
+
+  <!--メインコンテンツ-->
+  <%- include('contents/_main-container', {template: {name:'template-page1'}}) %>
+
+  <!--グローバルフッター-->  
+  <%- include('common/global-footer', {headerType: 'overlay'}) %>
+ 
+
+  <!--外部参照-->
+  <%- include('inc/_foot') %>
+
+</body>
+</html>

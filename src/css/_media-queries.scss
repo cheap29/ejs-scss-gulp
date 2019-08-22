@@ -1,0 +1,69 @@
+/*-------------------------------------------------------------------*/
+/*---  Media Queries ---*/
+/*-------------------------------------------------------------------*/
+
+@media screen  {
+  html {
+    overflow: auto;
+  }
+}
+
+/*タブレット 横はPCと同じスタイル*/
+
+/*タブレット 縦*/
+@media screen and (max-width: 1024px) and (orientation: portrait){
+
+}
+
+
+/*タブレット 縦*/
+@media screen and (max-width: 1024px){
+
+}
+
+
+/*スマホ 横*/
+@media screen and (max-width: 896px) and (orientation: landscape){
+
+}
+
+
+/*スマホ 横*/
+@media screen and (max-width: 896px){
+
+}
+
+
+/*スマホ　縦*/
+@media screen and (max-width: 480px){
+  
+}
+
+
+/* Orientation */
+
+@media screen and (orientation: portrait) {
+
+}
+
+@media screen and (orientation: landscape) {
+}
+
+
+/* Device Pixel Retio */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2.0) {
+  /* ピクセル密度2.0以上 =【xxdpi（超超高解像度）】の指定 */
+}
+@media screen and (-webkit-max-device-pixel-ratio: 2.0) {
+  /* ピクセル密度2.0以下 =【xdpi（超高解像度）】の指定 */
+}
+@media screen and (-webkit-max-device-pixel-ratio: 1.5) {
+  /* ピクセル密度1.5以下 =【hdpi（高解像度）】の指定 */
+}
+@media screen and (-webkit-max-device-pixel-ratio: 1.0) {
+  /* ピクセル密度1.0以下 =【mdpi（中解像度）】の指定 */
+}
+@media screen and (-webkit-max-device-pixel-ratio: 0.75) {
+  /* ピクセル密度0.75以下 =【ldpi（低解像度）】の指定 */
+}

@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------*/
+/*--- 基底スタイル                                                 ---*/
+/*--- コメントは{}の中に書くこと                                    ---*/
+/*-------------------------------------------------------------------*/
+* {
+	font-family: $base-font-family;
+}
+
+*:focus{
+  outline: none;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+	border-style: none;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  &:visited{
+    border: 0;
+  }
+}
+
+button{
+  cursor: pointer;
+}
+
+._c_hidden{
+  opacity: 0;
+}
+
+//Webフォントを読み込む場合
+// @font-face {
+//   font-family: "Makinas";
+//   font-style: normal;
+//   font-weight: normal;
+//   src: url('../font/Makinas-4-Square.woff') format('woff');
+// }
